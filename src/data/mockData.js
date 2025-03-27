@@ -8,7 +8,8 @@ const mockData = [
     endereco: "Rua das Palmeiras, 123, Centro",
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
-    maps: ""
+    maps: "",
+    comentario: "teste yteste tetets"
   },
   {
     id: 2,

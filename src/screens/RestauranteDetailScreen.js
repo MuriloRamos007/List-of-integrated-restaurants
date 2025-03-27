@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 
 const RestauranteDetailScreen = ({ route }) => {
-    const { nome, descricao, horario, telefone, imagem, endereco } = route.params;
+    const { nome, descricao, horario, telefone, imagem, endereco, comentario} = route.params;
   
     return (
       <View style={styles.container}>
@@ -12,6 +12,7 @@ const RestauranteDetailScreen = ({ route }) => {
         <Text style={styles.horario}>🕒 {horario}</Text>
         <Text style={styles.endereco}>📍 {endereco}</Text>
         <Text style={styles.telefone}>📞 {telefone}</Text>
+        <Text style={styles.comentario}>comentario {comentario}</Text>
   
         {}
         <View style={styles.botoes}>
@@ -26,6 +27,7 @@ const RestauranteDetailScreen = ({ route }) => {
           <TouchableOpacity style={styles.botao} >
             <Text style={styles.textoBotao}>📍 Localização</Text>
           </TouchableOpacity>
+        
         </View>
       </View>
     );
