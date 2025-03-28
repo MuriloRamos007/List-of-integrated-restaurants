@@ -9,7 +9,8 @@ const mockData = [
     imagem: "https://cms-blog.saipos.com/Entenda-como-funciona-um-Restaurante--La-Carte-SAIPOS-sistema-para-restaurantes-1.jpg",
     whatsapp: "",
     maps: "",
-    comentario: ""
+    comentario: "",
+    a:""
   },
   {
     id: 2,
